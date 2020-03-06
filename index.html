@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <title>Consulta de CEP</title>
+  </head>
+  <body>
+    <div class="container w-50">
+      <h1 class="text-center">Sistema de consulta de CEP</h1>
+         <form>
+           
+           <div class="form-row">
+             <div class="col-md-4 mb-3">
+               <label>CEP:</label>
+               <input type="text" id="ctdCep" class="form-control" required>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label>Logradouro</label>
+                <input type="text" class="form-control" id="ctdLogradouro">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label>Complemento</label> 
+                <input type="text" class="form-control" id="ctdComplemento">
+              </div>
+            </div>
+            
+            <!-- Pulou Linha -->
+            
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label>Bairro:</label>
+                <input type="text" id="ctdBairro" class="form-control">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label>Localidade:</label>
+                <input type="text" class="form-control" id="ctdLocalidade">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label>UF:</label> 
+                <input type="text" class="form-control" id="ctdUf">
+              </div>
+            </div>
+            
+            <!-- Pulou Linha  -->
+            
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label>GIA:</label>
+                <input type="text" id="ctdGia" class="form-control">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label>IBGE:</label>
+                <input type="text" class="form-control" id="ctdIbge">
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-header">
+                <strong>Dica ! </strong>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Digite apenas seu CEP e o sistema irá trazer as informações automaticamente.</p>
+              </div>
+            </div>
+          </form>
+          <hr></hr>
+          <footer class="text-muted">
+            <div class="container">
+              <p class="text-center">
+                Desenvolvido por André Cavalcanti Simões
+              </p>
+            </div>
+          </footer>
+        </div>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+  </body>
+</html>
